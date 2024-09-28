@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapket | Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="../svgs/icons/favicon.svg">
+    <!-- Firebase SDKs as modules -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js"></script>
+    <script type="module" src="firebase.js"></script> <!-- Ensure this path is correct -->
+</head>
+<body>
+    <div class="regBody">
+        <div class="checker"></div>
+        <div class="slash"></div>
+    </div>
+    <div class="credits">
+        <p class="header">Zapket</p>
+        <div class="sep"></div>
+        <p class="more">The first blue<br>Private Server<br><span style="font-size: 15px; font-family: Nunito, Arial;">Founded by "<b>Shinythunder</b>"</span></p>
+    </div>
+    <div class="con">
+        <p style="color: white; margin-top: -2px; font-size: 60px; font-family: 'Titan One', Arial;">Sign Up</p>
+        <input id="signup-email" class="inputs" placeholder="Email" type="email" required></input>
+        <input id="signup-password" class="inputs" placeholder="Password" type="password" required></input>
+        <button class="loginButton" id="signup-btn">Sign Up</button>
+    </div>
+
+    <script type="module">
+        import { signUpUser } from './firebase.js'; // Import the signUpUser function
+
+        document.getElementById('signup-btn').addEventListener('click', () => {
+            const email = document.getElementById('signup-email').value;
+            const password = document.getElementById('signup-password').value;
+
+            // Call the signUpUser function
+            signUpUser(email, password);
+        });
+    </script>
+</body>
+</html>

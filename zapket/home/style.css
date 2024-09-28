@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.regBody {
+    background-color: #0066ff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.regBody, .header, .more, .con, .credits {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.checker {
+    background-image: url(https://ac.blooket.com/play-l/assets/BlookCheckers-BykpA7vd.png);
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 50%;
+    left: 50%;
+    background-size: 28.646vw;
+    background-position: 0% 0%;
+    opacity: 0.1;
+    transform: translate(-50%, -50%) rotate(15deg);
+    overflow: hidden;
+}
+
+.slash {
+    background-color: #0066ff;
+    box-shadow: -8px 0px rgba(0, 0, 0, 0.2) inset, 0px 0px 4px rgba(0, 0, 0, 0.15);
+    width: 60vw;
+    height: 135vh;
+    position: absolute;
+    left: -20vw;
+    transform: rotate(-15deg);
+    top: -10vh;
+                                          
+}
+
+.header {
+    color: white;
+    position: absolute;
+    top: -75px;
+    left: 17px;
+    font-size: 60px;
+    font-family: Titan One, Arial
+}
+
+.credits {
+position: absolute;
+left: 2vw;
+top: 5vh;
+width: 20vw;
+height: 60vh;
+overflow: hidden;
+}
+
+.more {
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    font-size: 25px;
+    font-family: Titan One, Arial;
+}
+
+.topButton {
+    border: none;
+    position: absolute;
+    left: 80px;
+    top: 190px;
+    background-color: #0044ff;
+    color: white;
+    font-family: Nunito, Arial;
+    transition: all linear .2s;
+    width: 120px;
+    height: 45px;
+    border-radius: 7.5px;
+    font-size: 16px;
+    z-index: 3;
+}
+
+.topButton:hover {
+ background-color: white;
+ color: #0044ff;
+}
+
+.topButton:nth-of-type(2) {
+    top: 250px;
+}
+
+.con {
+    width: 30vw;
+    height: 55vh;
+    background-color: #0044ff;
+    position: absolute;
+    left: 50vw;
+    top: 10vw;
+    border-radius: 7.5px;
+    box-shadow: inset 0 -6px #0003;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+ 
+.header.sign2 {
+    white-space: nowrap;
+    position: absolute;
+    left: calc(33.5vw - 320px);
+}
+
+.inputs {
+width: 220px;
+height: 35px;
+font-family: Nunito, Arial;
+border: none;
+border-radius: 7.5px;
+outline: none;
+position: absolute;
+background-color: #0066ff;
+caret-color: white;
+color: white;
+left: 90px;
+}
+
+.inputs::placeholder {
+    color: rgb(180, 180, 180);
+}
+
+.inputs:-ms-input-placeholder {
+    color: rgb(180, 180, 180);
+}
+
+.inputs::-ms-input-placeholder { 
+    color: rgb(180, 180, 180);
+}
+
+.inputs::-webkit-input-placeholder { 
+    color: rgb(180, 180, 180);
+}
+
+
+.inputs:nth-of-type(1) {
+top: 70px;
+}
+
+.inputs:nth-of-type(2) {
+top: 120px;
+}
+
+.loginButton {
+    background-color: #0066ff;
+    width: 140px;
+    height: 35px;
+    color: white;
+    font-family:  Nunito, Arial;
+    position: absolute;
+    top: 180px;
+    border: none;
+    border-radius: 7.5px;
+    transition: linear .2s;
+}
+
+.loginButton:hover {
+    background-color: white;
+    color: #0066ff;
+}

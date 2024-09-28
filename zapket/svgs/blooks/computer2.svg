@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketchjs="https://sketch.io/dtd/" version="1.1" sketchjs:metadata="eyJuYW1lIjoiRHJhd2luZy0yLnNrZXRjaHBhZCIsInN1cmZhY2UiOnsiaXNQYWludCI6dHJ1ZSwibWV0aG9kIjoiZmlsbCIsImJsZW5kIjoibm9ybWFsIiwiZW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwidHlwZSI6InBhdHRlcm4iLCJwYXR0ZXJuIjp7InR5cGUiOiJwYXR0ZXJuIiwicmVmbGVjdCI6Im5vLXJlZmxlY3QiLCJyZXBlYXQiOiJyZXBlYXQiLCJzbW9vdGhpbmciOmZhbHNlLCJzcmMiOiJ0cmFuc3BhcmVudExpZ2h0Iiwic3giOjEsInN5IjoxLCJ4MCI6MC41LCJ4MSI6MSwieTAiOjAuNSwieTEiOjF9LCJpc0ZpbGwiOnRydWV9LCJjbGlwUGF0aCI6eyJlbmFibGVkIjp0cnVlLCJzdHlsZSI6eyJzdHJva2VTdHlsZSI6ImJsYWNrIiwibGluZVdpZHRoIjoxfX0sImRlc2NyaXB0aW9uIjoiTWFkZSB3aXRoIFNrZXRjaHBhZCIsIm1ldGFkYXRhIjp7fSwiZXhwb3J0RFBJIjo3MiwiZXhwb3J0Rm9ybWF0IjoicG5nIiwiZXhwb3J0UXVhbGl0eSI6MC45NSwidW5pdHMiOiJweCIsIndpZHRoIjozMDAsImhlaWdodCI6MzAwLjAwMDAwMDAwMDAwMDA2LCJwYWdlcyI6W3sid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAuMDAwMDAwMDAwMDAwMDZ9XSwidXVpZCI6IjBiYmI5OGM5LTc3ZjYtNDZkYy04OTgyLWJiM2Y4YTBlNWM0ZCJ9" width="300" height="300.00000000000006" viewBox="0 0 300 300.00000000000006">
+        <defs>
+            <linearGradient x1="150" y1="356.11" x2="150" y2="161.16" id="A" gradientUnits="userSpaceOnUse">
+                <stop offset="0" style="stop-color:#999999;"/>
+                <stop offset="1" style="stop-color:#3c3c3c;"/>
+            </linearGradient>
+        </defs>
+        <g style="mix-blend-mode: source-over;" sketchjs:tool="clipart" transform="matrix(0.14103741333785666,0,0,0.141037413337857,131.1309628896034,121.35077285558151)">
+            <path id="path839" d="M263.62,345H36.38A36.38,36.38,0,0,1,0,308.62V259.14H300v49.48A36.38,36.38,0,0,1,263.62,345Z" sketchjs:uid="1" style="fill: url(#A);"/>
+            <rect id="rect841" y="45" rx="36.38" width="300" height="253.39" x="0" ry="36.38" sketchjs:uid="2" style="fill: #999999; fill-opacity: 1;"/>
+        </g>
+        <g style="mix-blend-mode: source-over;" sketchjs:tool="clipart" transform="matrix(0.12436956269155003,0,0,0.10554410044978128,133.69023396395588,125.39390852211439)">
+            <path id="path839" d="M263.62,345H36.38A36.38,36.38,0,0,1,0,308.62V259.14H300v49.48A36.38,36.38,0,0,1,263.62,345Z" sketchjs:uid="1" style="fill: #3f3f3f; fill-opacity: 1;"/>
+            <rect id="rect841" y="45" rx="36.38" width="300" height="253.39" x="0" ry="36.38" sketchjs:uid="2" style="fill: #3f3f3f; fill-opacity: 1;"/>
+        </g>
+        <g style="mix-blend-mode: source-over;" sketchjs:tool="fancyText" transform="matrix(1,0,0,1,115.69790885215721,130.3125)">
+            <g sketchjs:uid="1">
+                <g sketchjs:uid="2" style="paint-order: stroke fill markers;">
+                  	<path d="M 25.824624999999997 5.909000000000001L 20.764625 7.856L 20.764625 6.525L 22.700625 5.8870000000000005L 24.185625 5.37L 24.185625 5.3260000000000005L 22.700625 4.809L 20.764625 4.171L 20.764625 2.8400000000000007L 25.824624999999997 4.787L 25.824624999999997 5.909000000000001ZZ" sketchjs:uid="10" style="fill: #86c715; fill-opacity: 1;"/>
+                </g>
+            </g>
+        </g>
+        </svg>

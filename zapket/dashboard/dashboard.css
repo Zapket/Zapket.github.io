@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color: #0066ff;
+}
+
+.sidebar {
+    background-color: #0044ff;
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: -8px 0px rgba(0, 0, 0, 0.2) inset, 0px 0px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.sideTitle {
+    color: white;
+    font-family: 'Titan One', Arial;
+    font-size: 40px;
+    margin: 0;
+    padding-left: 40px;
+    
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideButton {
+    width: 80%;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: #0044ff;
+    margin-top: 10px;
+    display: flex; 
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 0 7.5px 7.5px 0px;
+    transition: linear .2s;
+    font-size: 15px;
+    font-family: Nunito, Arial;
+    text-decoration: none;
+}
+
+.sideButton:hover {
+    color: #0044ff;
+    background-color: white;
+}
+
+.sideButton.clicked {
+    color: #0044ff;
+    background-color: white; 
+}
+
+
+.sideButton span {
+    margin-left: 10px;
+}
+
+.store-button {
+    position: relative;
+    left: 7%;
+    top: 30%;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: filter .25s;
+}
+
+.store-button-shadow {
+    background: #00000040;
+    transform: translateY(2px);
+    transition: transform .6s cubic-bezier(.3,.7,.4,1);
+    
+}
+
+.store-button-edge,
+.store-button-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 79%;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+
+.store-button-edge {
+    filter: brightness(.7);
+}
+
+.store-button-front {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    transform: translateY(-4px);
+    transition: transform .6s cubic-bezier(.3,.7,.4,1);
+    font-family: Nunito, Arial;
+    width: 75%;
+    height: 25px;
+    
+}
+
+.store-button:hover {
+    filter: brightness(110%);
+}
+
+.store-button:hover .store-button-front {
+    transform: translateY(-6px);
+    transition: transform .25s cubic-bezier(.3,.7,.4,1.5);
+}
+
+.store-button:active .store-button-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.store-button:hover .store-button-shadow {
+    transform: translateY(4px);
+    transition: transform .25s cubic-bezier(.3,.7,.4,1.5);
+}
+
+.store-button:active .store-button-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+ .shiny {
+    background-color: #0044ff;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; 
+    transform-origin: center; 
+    position: absolute; 
+    left: 350px;
+    top: 30px; 
+    z-index: 1; 
+    border-radius: 7.5px;
+    box-shadow: inset 0 -6px rgb(0 0 0 / 20%);
+}
+
+
+.shiny img {
+    margin-top: -60px;
+    transform: scale(2);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+}
+
+.shiny:hover {
+    transform: scale(0.9);
+}
+
+.text {
+    color: white;
+    font-family: Nunito, Arial;
+    position: absolute;
+    top: 130px;
+}
+
+
+.time {
+    background-color: #0044ff;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; 
+    transform-origin: center; 
+    position: absolute; 
+    left: 650px;
+    top: 30px; 
+    z-index: 1; 
+    border-radius: 7.5px;
+    box-shadow: inset 0 -6px rgb(0 0 0 / 20%);
+}
+
+
+.time img {
+position: absolute;
+    top: -320px;
+    left: -205px;
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+}
+
+.time:hover {
+    transform: scale(0.9);
+}
+
+.der {
+    background-color: #0044ff;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; 
+    transform-origin: center; 
+    position: absolute; 
+    left: 950px;
+    top: 30px; 
+    z-index: 1; 
+    border-radius: 7.5px;
+    box-shadow: inset 0 -6px rgb(0 0 0 / 20%);
+}
+
+
+.der img {
+position: absolute;
+    top: -270px;
+    left: -205px;
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+}
+
+.der:hover {
+    transform: scale(0.9);
+}
+
+
+.fbcont {
+    background-color: #0044ff;
+    width: 260px;
+    height: 450px;
+    position: absolute;
+    border-radius: 7.5px;
+    box-shadow: inset 0 -6px rgb(0 0 0 / 20%);
+    left: 350px;
+    top: 30px; 
+    display: flex;
+    justify-content: center;
+}
+
+.t {
+    color: white;
+    font-family: Nunito, Arial;
+    position: relative;
+    top: -10px;
+}
+
+.fbInput {
+width: 220px;
+height: 35px;
+font-family: Nunito, Arial;
+border: none;
+border-radius: 7.5px;
+outline: none;
+position: absolute;
+background-color: #0066ff;
+caret-color: white;
+color: white;
+left: 20px;
+}
+
+.fbInput::placeholder {
+    color: rgb(180, 180, 180);
+}
+
+.fbInput:-ms-input-placeholder {
+    color: rgb(180, 180, 180);
+}
+
+.fbInput::-ms-input-placeholder { 
+    color: rgb(180, 180, 180);
+}
+
+.fbInput::-webkit-input-placeholder { 
+    color: rgb(180, 180, 180);
+}
+
+.fbInput:nth-of-type(1) {
+ top: 40px;
+ }
+    
+.fbInput:nth-of-type(2) {
+top: 90px;
+}
+.fbInput:nth-of-type(3) {
+    top: 140px;
+    }
+    .fbInput:nth-of-type(4) {
+        top: 190px;
+        }
+        .fbInput:nth-of-type(5) {
+            top: 240px;
+            }
+            .fbInput:nth-of-type(6) {
+                top: 290px;
+                }
+
+.reset {
+    width: 220px;
+    height: 35px;
+    font-family: Nunito, Arial;
+    border: none;
+    border-radius: 7.5px;
+    outline: none;
+    position: absolute;
+    background-color: #0066ff;
+    caret-color: white;
+    color: white;
+    left: 20px;  
+    top: 370px;
+    transition: linear .2s;
+}
+
+.reset:hover {
+    color: #0066ff;
+    background-color: white;
+}
+
+.usercont {
+width: 40vw;
+height: 225px;
+background-color: transparent;
+position: absolute;
+left: 50vh;
+top: 30px;
+}

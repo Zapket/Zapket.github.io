@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapket | Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="../svgs/icons/favicon.svg">
+    <!-- Firebase SDKs as modules -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js"></script>
+    <script type="module" src="firebase.js"></script> <!-- Ensure this path is correct -->
+</head>
+<body>
+    <div class="regBody">
+        <div class="checker"></div>
+        <div class="slash"></div>
+    </div>
+    <div class="credits">
+        <p class="header">Zapket</p>
+        <div class="sep"></div>
+        <p class="more">The first blue<br>Private Server<br><span style="font-size: 15px; font-family: Nunito, Arial;">Founded by "<b>Shinythunder</b>"</span></p>
+    </div>
+    <div class="con">
+        <p style="color: white; margin-top: -2px; font-size: 60px; font-family: 'Titan One', Arial;">Login</p>
+        <input id="login-email" class="inputs" placeholder="Email" type="email" required></input>
+        <input id="login-password" class="inputs" placeholder="Password" type="password" required></input>
+        <button class="loginButton" id="login-btn">Login</button>
+    </div>
+
+    <script type="module">
+        import { loginUser } from './firebase.js'; // Import the loginUser function
+
+        document.getElementById('login-btn').addEventListener('click', () => {
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+
+            // Call the loginUser function
+            loginUser(email, password);
+        });
+    </script>
+</body>
+</html>
+
